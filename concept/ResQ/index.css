@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	height: 70px;
+	width: 130px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header{
+	background-color: #db4538;
+	top: 0;
+	height: 70px;
+	width: 100%;
+	display: inline-block;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+}
+
+img#firstphone{
+	display: block;
+	width: 408px;
+	float: right;
+	position: relative;
+
+}
+
+img#secondphone, img#responder{
+	display: block;
+	height: 50.5%;
+	width: 50.5%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	opacity: 0;
+}
+
+
+div{
+ 	display: inline-block;
+}
+
+div#design{
+	float: left;
+	width: 60%;
+}
+
